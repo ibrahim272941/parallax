@@ -1,0 +1,201 @@
+html ,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.8rem;
+}
+.image1{
+    /* background: url(img/bg.jpg) no-repeat center;
+    background-size: 100%; */
+    background-image: url(img/bg.jpg);
+    min-height: 100%;
+}
+.image2{
+    background-image: url(img/bg2.jpg);
+    min-height: 80%;
+}
+.image3{
+    background-image: url(img/bg3.jpg);
+    min-height: 80%;
+}
+.image4{
+    background-image: url(img/bg4.jpg);
+    min-height: 80%;
+}
+.image1,
+.image2,
+.image3,
+.image4{
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.heading-container__heading{
+    background-color:black ;
+    padding: 2rem;
+    letter-spacing: .5rem;
+    border-radius: 2rem 0 2rem 0;
+    outline: .5rem inset purple;
+    outline-offset: 1rem;
+    line-height: 2.5rem;
+    
+}
+.heading-container__heading--title{
+    color: white;
+    font-size: 3rem;
+
+    
+}
+.heading-container__logo {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading-container__logo img{
+    width: 30%;
+
+}
+.heading-container__text{
+    background-color:black ;
+    padding: .7rem;
+    letter-spacing: .7rem;
+    border-radius: 1rem 0 1rem 0;
+    outline: .3rem inset purple;
+    outline-offset: .1rem;
+    line-height: 4rem;
+    font-size: 3rem;
+    color: white;
+}
+.section-background-hell{
+    text-align: center;
+    padding: 2rem;
+}
+.section-background-dunkel{
+    text-align: center;
+    padding: 2rem;
+    background-color: #282E34;
+    color: #DDDDDD;
+    
+}
+@media(max-width:770px){
+    .heading-container__heading{
+        background-color:black ;
+        padding: 1rem;
+        letter-spacing: .1rem;
+        border-radius: 1rem 0 1rem 0;
+        outline: .5rem inset purple;
+        outline-offset: .5rem;
+        line-height: 1.5rem;
+        
+    }
+    .heading-container__heading--title{
+        color: white;
+        font-size: 2rem;
+    
+        
+    }
+    .heading-container__text{
+        background-color:black ;
+        padding: .7rem;
+        letter-spacing: .4rem;
+        border-radius: 1rem 0 1rem 0;
+        outline: .3rem inset purple;
+        outline-offset: .1rem;
+        line-height: 2rem;
+        font-size: 2rem;
+        color: white;
+    }
+}
+@media(max-width:370px){
+    .heading-container__heading{
+        background-color:black ;
+        padding: 1rem;
+        letter-spacing: .1rem;
+        border-radius: 1rem 0 1rem 0;
+        outline: .3rem inset purple;
+        outline-offset: .2rem;
+        line-height: 1rem;
+        
+    }
+    .heading-container__heading--title{
+        color: white;
+        font-size: 1rem;
+    
+        
+    }
+    .heading-container__text{
+        background-color:black ;
+        padding: .7rem;
+        letter-spacing: .2rem;
+        border-radius: .6rem 0 .6rem 0;
+        outline: .3rem inset purple;
+        outline-offset: .1rem;
+        line-height: 2rem;
+        font-size: 1rem;
+        color: white;
+    }
+    .heading-container__logo img{
+        width: 50%;
+    
+    }
+    .section-background-hell{
+        text-align: center;
+        line-height: 1rem;
+        font-size: .6rem;
+        padding: 1rem;
+    }
+    .section-background-dunkel{
+        text-align: center;
+        padding: 1rem;
+        background-color: #282E34;
+        color: #DDDDDD;
+        line-height: 1rem;
+        font-size: .6rem;
+        
+    }
+    
+}
+@media(max-width:500px){
+    .heading-container__text{
+        background-color:black ;
+        padding: .7rem;
+        letter-spacing: .1rem;
+        border-radius: .6rem 0 .6rem 0;
+        outline: .3rem inset purple;
+        outline-offset: .1rem;
+        line-height: 2rem;
+        font-size: 1rem;
+        color: white;
+    }
+    .heading-container__heading{
+        background-color:black ;
+        padding: .7rem;
+        letter-spacing: .1rem;
+        border-radius: .6rem 0 .6rem 0;
+        outline: .3rem inset purple;
+        outline-offset: .1rem;
+        line-height: 1rem;
+        
+    }
+    .heading-container__heading--title{
+        color: white;
+        font-size: 1rem;
+    
+        
+    }
+    .heading-container__logo img{
+        width: 50%;
+    
+    }
+}
